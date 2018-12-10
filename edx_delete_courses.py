@@ -17,8 +17,8 @@ login_link.click()
 login_email = driver.find_element_by_id('login-email')
 login_password = driver.find_element_by_id('login-password')
 
-login_email.send_keys("daniel.vrabii@gmail.com")
-login_password.send_keys("megatron94")
+login_email.send_keys("your_email")
+login_password.send_keys("your_password")
 login_email.send_keys(Keys.RETURN)
 
 #wait = WebDriverWait(driver,20)
